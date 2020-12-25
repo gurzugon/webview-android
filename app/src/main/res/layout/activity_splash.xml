@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_eyed1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_marginTop="10dp"
+        android:text="EYeD"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFEFE"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        tools:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Eye Health Education"
+        android:textColor="#FFFEFE"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="154dp"
+        android:layout_centerHorizontal="true"
+        android:text="Copyright © Zugon 2020"
+        android:textColor="#FFFEFE"
+        android:textSize="10dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
