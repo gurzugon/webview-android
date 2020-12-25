@@ -1,2 +1,2 @@
 # webview-android
-Android wenview with permission for camera
+Android webview with permission for camera
