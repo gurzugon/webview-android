@@ -84,7 +84,6 @@ public class MainActivity extends Activity  {
                     }
                 }
             }
-
             @Override
             public void onPermissionRequestCanceled(PermissionRequest request) {
                 super.onPermissionRequestCanceled(request);
